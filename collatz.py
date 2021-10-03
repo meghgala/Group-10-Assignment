@@ -1,3 +1,4 @@
+#Function to create the Collatz sequence
 def collatz():
     n1 = input("Enter the starting number: ")
     n = int(n1)
