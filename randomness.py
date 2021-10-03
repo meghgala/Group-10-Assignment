@@ -14,5 +14,3 @@ def average():
     print("\n")
     avg = sum/6                                        # calculating average of the numbers got over different throws
     print("Average : %.1f" %(avg))
-
-# average()

@@ -11,6 +11,3 @@ def collatz():
         else:
             n = (3*n) + 1  #If the number is not divisible by 2, perform 3n+1
             print("%d" %(n))
-
-
-collatz()

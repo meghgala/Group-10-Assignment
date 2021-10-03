@@ -9,5 +9,3 @@ def printfactorials():
     n1 = int(n)
     for i in range(1,n1):
         print("%d! = %d" %(i,factorial(i)))
-
-# printfactorials()
