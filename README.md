@@ -11,5 +11,6 @@ The collatz sequence is a conjecture in mathematics that follows a particular se
 1. The sequence begins with any positive integer, say n
 2. If the integer n is odd, the next number in sequence would be 3n+1
 3. If the integer n is even, the next number in sequence would be n/2
-4. The sequence will continue until digit 1 is encountered
+4. The sequence will continue until digit 1 is encountered.
+
 The following function prints the sequence starting from the input given by the user. 
