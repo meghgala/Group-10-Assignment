@@ -9,8 +9,9 @@ def average():
     sum = 0
     print("\n")
     for i in range(1,n1+1):
-        sum = randomness()+sum                         #calling the random number function and calc sum of the throws
-        print("Die %d: %d" %(i,randomness()))
+        r = randomness()
+        sum = r + sum                         #calling the random number function and calc sum of the throws
+        print("Die %d: %d" %(i,r))
     print("\n")
-    avg = sum/6                                        # calculating average of the numbers got over different throws
+    avg = sum/n1                                        # calculating average of the numbers got over different throws
     print("Average : %.1f" %(avg))
